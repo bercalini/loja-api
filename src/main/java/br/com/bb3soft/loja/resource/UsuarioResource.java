@@ -38,6 +38,7 @@ public class UsuarioResource {
     @GET
     @Path("/{usuarioId}")
     public UsuarioDTO buscarPorId(@PathParam("usuarioId") Long usuarioId) {
+        System.out.println("buscar por id");
         return usuarioService.buscarPorId(usuarioId);
     }
 
