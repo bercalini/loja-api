@@ -1,1 +1,1 @@
-web: java -jar target/loja-api-1.0.0-SNAPSHOT.jar
+web: java -jar target/quarkus-app/quarkus-run.jar
